@@ -1,85 +1,395 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <title>
-            INDEX PAGE
+            ALL IN ONE MATRIMONY
         </title>
     </head>
 
     <style>
         body{
-
-           background: black;
-         
+            background: black;
+            
+            
         }
-        
-        
 
-        
+        button{
+            padding: 2% 3% 2% 3%;
+            background: black;
+            border: 2px solid black;
+            border-radius: 50px;
+            font-size: 12px;
+            color:white;
+            cursor: pointer;
+            box-shadow: -2px -2px 8px black,
+                        -2px -2px 12px rgb(2, 2, 2),
+                        inset 2px 2px 4px rgb(5, 5, 5),
+                        2px 2px 8px rgb(5, 5, 5);
+            }
+
+        button:hover{
+                box-shadow: inset -80px -80px 100px blue,
+                            inset -2px -2px 12px rgb(7, 7, 7),
+                            inset 2px 2px 4px rgb(5, 5, 5),
+                            inset 2px 2px 8px rgba(12, 12, 12,0.15);
+        }
+
+        .content{
+           
+           background: black;
+           text-align: center;
+           font-size: 50%;
+           word-spacing: 30px;
+        }
 
         h1{
+            padding-bottom: 0%;
+            font-size: 2em;
+            color: #333;
+            font-weight: 500;
             text-align: center;
-            color: white;
-            font-size: 500%;
-            font-family: sans-serif;
-            
         }
+         
         h2{
-            padding-left: 200px;
-            color: red;
-            text-align: left;
-            font-size: 300%;
-            font-family: sans-serif;
-            
+            padding-left: 30px;
+            padding-top: 0%;
+            font-size: 4em;
+            color: #333;
+            font-weight: 500;  
+            text-align: center;
 
         }
-        a{
-            padding-top: 60px;
-            padding-left: 200px;
-            
- 
-        }
-        pre{
-            padding-left: 110px;
 
-        }
-        button{
-            padding: 10px 15px 10px 15px;
-            background: green;
-            border: 3px solid darkgreen;
-            color: white;
-            font-size: 10px;
-            border-radius: 10px;
-
-
+        h1 span{
+            animation: animate 1s linear infinite;
         }
         
+        h2 span{
+            animation: animate 1s linear infinite;
+        }
+
+        h1 span:nth-child(1)
+        {
+            animation-delay: 0s;
+        }
+
         
+        h1 span:nth-child(2)
+        {
+            animation-delay: 0.1s;
+        }
+
+        
+        h1 span:nth-child(3)
+        {
+            animation-delay: 0.2s;
+        }
+
+        
+        h1 span:nth-child(4)
+        {
+            animation-delay: 0.3s;
+        }
+
+        
+        h1 span:nth-child(5)
+        {
+            animation-delay: 0.4s;
+        }
+
+        
+        h1 span:nth-child(6)
+        {
+            animation-delay: 1.5s;
+        }
+
+        
+        h1 span:nth-child(7)
+        {
+            animation-delay: 1.6s;
+        }
+
+        
+        h1 span:nth-child(8)
+        {
+            animation-delay: 0.7s;
+        }
+
+        
+        h1 span:nth-child(9)
+        {
+            animation-delay: 0.8s;
+        }
+
+        
+        h1 span:nth-child(10)
+        {
+            animation-delay: 0.9s;
+        
+        }
+        h1 span:nth-child(11)
+        {
+            animation-delay: 1s;
+        
+        }
+
+        h2 span:nth-child(1)
+        {
+            animation-delay: 0s;
+        
+        }
+
+        h2 span:nth-child(2)
+        {
+            animation-delay: 0.1s;
+        
+        }
+
+        h2 span:nth-child(3)
+        {
+            animation-delay: 0.2s;
+        
+        }
+
+        h2 span:nth-child(4)
+        {
+            animation-delay: 0.3s;
+        
+        }
+
+        h2 span:nth-child(5)
+        {
+            animation-delay: 0.4s;
+        
+        }
+
+        h2 span:nth-child(6)
+        {
+            animation-delay: 0.5s;
+        
+        }
+
+        h2 span:nth-child(7)
+        {
+            animation-delay: 0.6s;
+        
+        }
+
+        h2 span:nth-child(8)
+        {
+            animation-delay: 0.7s;
+        
+        }
+
+        h2 span:nth-child(9)
+        {
+            animation-delay: 0.8s;
+        
+        }
+
+        
+
+
+        @keyframes animate{
+            0%,80%
+            {
+                color: #333;
+                text-shadow: none;
+            }
+            100%
+            {
+                color: #fff;
+                text-shadow: 0 0 10px #fff
+                            0 0 20px #fff
+                            0 0 40px #fff
+                            0 0 60px #fff
+                            0 0 80px #fff
+                            0 0 100px #fff
+                            0 0 120px #fff
+                            0 0 140px #fff
+                            0 0 160px #fff
+                            0 0 180px #fff
+                            0 o 200px #fff
+
+            }
+        }
+
+        
+        @keyframes animate{
+            0%,80%
+            {
+                color: #333;
+                text-shadow: none;
+            }
+            100%
+            {
+                color: #fff;
+                text-shadow: 0 0 10px #fff
+                            0 0 20px #fff
+                            0 0 40px #fff
+                            0 0 60px #fff
+                            0 0 80px #fff
+                            0 0 100px #fff
+                            0 0 120px #fff
+                            0 0 140px #fff
+                            0 0 160px #fff
+                            
+
+            }
+        }
+
+          
+        * {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 2500px ;
+  position: center;
+  margin: auto;
+  padding: 0 0 0 30%;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+        
+
     </style>
 
-
     <body>
+        <h1>
+            <span>-</span>
+            <span>A</span>
+            <span>L</span>
+            <span>L</span>
+            <span>-</span>
+            <span>I</span>
+            <span>N</span>
+            <span>-</span>
+            <span>O</span>
+            <span>N</span>
+            <span>E</span>
+            <span>-</span>
 
-       <video autoplay muted loop id="myvideo">
-           <source src="E:\video\3d_red_hearts_animation_background_video_hd___motion___neon_effects___particle___love___chroma_key(720p).mp4" type="video/mp4">
-       </video>
+        </h1>
 
+
+        <h2>
+            <span>M</span>
+            <span>A</span>
+            <span>T</span>
+            <span>R</span>
+            <span>I</span>
+            <span>M</span>  
+            <span>O</span>
+            <span>N</span>
+            <span>Y</span>
+
+        </h2>
+
+        <div class="content">
+            <a href="index.html"><button>HOME</button></a>
+            <a href="contact.html"><button>CONTACT</button></a>
+            <a href="terms and condition.html"><button>REGISTRATION</button></a>
+            <a href="about.html"><button>ABOUT US</button></a>
+            <a href="privacy and policy.html"><button>PRIVACY POLICY</button></a>
+        </div>
+
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+              <div class="numbertext">1 / 3</div>
+              <img src="https://www.indiafilings.com/learn/wp-content/uploads/2018/04/Marriage-Certificate.jpg" style="width:55%">
+              <div class="text">   </div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">2 / 3</div>
+              <img src="
+              https://images.unsplash.com/photo-1597157639073-69284dc0fdaf?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aW5kaWFuJTIwd2VkZGluZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" style="width: 55%">
+              <div class="text"></div>
+            </div>
+            
+            <div class="mySlides fade">
+              <div class="numbertext">3 / 3</div>
+              <img src="
+    
+    
+              https://www.indiafilings.com/learn/wp-content/uploads/2018/05/Telangana-Marriage-Registration.jpg" style="width:55%">
+              <div class="text"></div>
+            </div>
+            
+            </div>
+            <br>
+            
+            <div style="text-align:center">
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+              <span class="dot"></span> 
+            </div>
+            
+            <script>
+            var slideIndex = 0;
+            showSlides();
+            
+            function showSlides() {
+              var i;
+              var slides = document.getElementsByClassName("mySlides");
+              var dots = document.getElementsByClassName("dot");
+              for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";  
+              }
+              slideIndex++;
+              if (slideIndex > slides.length) {slideIndex = 1}    
+              for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+              }
+              slides[slideIndex-1].style.display = "block";  
+              dots[slideIndex-1].className += " active";
+              setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+            </script>
+    
         
-        <h1>WELCOME TO OUR WEBSITE </h1><br>
-
-        
-
-        <h2>NOTE:</h2>
-
-        <pre style="color: white;">
-            1)This Is Not A SSL Certified website.<br>
-            2)This May Be Slow At Some setTimeout.<br>
-            3)
-           
-        </pre>
-        
-
-        <a href="welcome.html"><button>AGREE AND CONTINUE</button></a>
-
     </body>
+
 </html>
